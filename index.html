@@ -1,4 +1,4 @@
-alert("Calcule seu IMC. Para terminar o programa, aperte em 'Cancelar'");
+alert("Calcule seu IMC. Quando terminar o programa, clique em 'Cancelar'");
 
 function imc(peso, altura) {
   return peso / (altura * altura);
@@ -23,13 +23,13 @@ function tiposimc(imc) {
 for (var i = 0; i < 10; i++) {
   var peso = parseFloat(prompt("Digite o seu peso (Inteiros ou Decimais): "));
   if (peso === null || isNaN(peso)) {
-    console.log("Terminando o programa");
+    console.log("Termino do programa");
     break;
   }
 
   var altura = parseFloat(prompt("Digite sua altura (Em decimal): "));
   if (altura === null || isNaN(altura)) {
-    console.log("Terminando o programa");
+    console.log("Termino do programa");
     break;
   }
 
